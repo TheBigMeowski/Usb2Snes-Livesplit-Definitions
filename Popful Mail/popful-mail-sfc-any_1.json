@@ -1,0 +1,194 @@
+{
+  "name": "Popful Mail SFC",
+  "autostart": {
+    "active": "0",
+    "name": "Autostart",
+    "address": null,
+    "value": null,
+    "type": null,
+    "more": null,
+    "next": null
+  },
+  "igt": null,
+  "alias": null,
+  "definitions": [
+    {
+      "name": "Golem",
+      "address": "0x0295",
+      "value": "0x01",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Wood Golem",
+      "address": "0x0295",
+      "value": "0x03",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Talk to Pink Dragon",
+      "address": "0x0296",
+      "value": "0xE0",
+      "type": "eq",
+      "more": null,
+      "next": [
+        {
+          "name": "Next 1",
+          "address": "0x02B2",
+          "value": "0x08",
+          "type": "eq",
+          "more": null,
+          "next": null
+        }
+      ]
+    },
+    {
+      "name": "Potion",
+      "address": "0x0294",
+      "value": "0xBF",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Thunder Dragon",
+      "address": "0x0298",
+      "value": "0xAF",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Gorades",
+      "address": "0x0298",
+      "value": "0xEF",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Crystal",
+      "address": "0x029B",
+      "value": "0x17",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Wizards",
+      "address": "0x029B",
+      "value": "0xD7",
+      "type": "eq",
+      "more": null,
+      "next": [
+        {
+          "name": "Next 1",
+          "address": "0x02B4",
+          "value": "0X02",
+          "type": "eq",
+          "more": null,
+          "next": null
+        },
+        {
+          "name": "Next 2",
+          "address": "0x02B4",
+          "value": "0x00",
+          "type": "eq",
+          "more": null,
+          "next": null
+        }
+      ]
+    },
+    {
+      "name": "Sagym",
+      "address": "0x02B3",
+      "value": "0x04",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Penguin Village",
+      "address": "0x02B4",
+      "value": "0x08",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Green Kill",
+      "address": "0x029E",
+      "value": "0x17",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Red Kill",
+      "address": "0x029E",
+      "value": "0x37",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Dokken",
+      "address": "0x029D",
+      "value": "0xFB",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Berklift",
+      "address": "0x02A1",
+      "value": "0x3F",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Desarodios",
+      "address": "0x02A1",
+      "value": "0xFF",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Cutscene",
+      "address": "0x02A2",
+      "value": "0x40",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Castle Ends",
+      "address": "0x02A3",
+      "value": "0x5B",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "Geistrace",
+      "address": "0x0222",
+      "value": "0x20",
+      "type": "eq",
+      "more": null,
+      "next": null
+    },
+    {
+      "name": "The End",
+      "address": "0x02A2",
+      "value": "0xFF",
+      "type": "eq",
+      "more": null,
+      "next": null
+    }
+  ]
+}
