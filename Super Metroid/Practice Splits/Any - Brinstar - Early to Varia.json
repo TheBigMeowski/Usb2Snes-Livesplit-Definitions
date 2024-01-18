@@ -1,0 +1,100 @@
+{
+    "name": "Super Metroid",
+    "autostart": {
+        "active": "1",
+        "name": "Autostart",
+        "address": "0x079B",
+        "value": "0x9AD9",
+        "type": "weq",
+        "more": null,
+        "next": null
+    },
+    "igt": null,
+    "alias": null,
+    "definitions": [
+        {
+            "name": "Dachora Room",
+            "address": "0x079B",
+            "value": "0x9CB3",
+            "type": "weq"
+        },
+        {
+            "name": "Big Pink",
+            "address": "0x079B",
+            "value": "0x9D19",
+            "type": "weq"
+        },
+        {
+            "name": "Green Hill Zone",
+            "address": "0x079B",
+            "value": "0x9E52",
+            "type": "weq"
+        },
+        {
+            "name": "Noob Bridge",
+            "address": "0x079B",
+            "value": "0x9FBA",
+            "type": "weq"
+        },
+        {
+            "name": "Red Tower",
+            "address": "0x079B",
+            "value": "0xA253",
+            "type": "weq"
+        },
+        {
+            "name": "Bat Room",
+            "address": "0x079B",
+            "value": "0xA3DD",
+            "type": "weq"
+        },
+        {
+            "name": "Below Spazer",
+            "address": "0x079B",
+            "value": "0xA408",
+            "type": "weq"
+        },
+        {
+            "name": "Warehouse Zeela Room",
+            "address": "0x079B",
+            "value": "0xA471",
+            "type": "weq"
+        },
+        {
+            "name": "Warehouse Kihunter Room",
+            "address": "0x079B",
+            "value": "0xA4DA",
+            "type": "weq"
+        },
+        {
+            "name": "Baby Kraid Room",
+            "address": "0x079B",
+            "value": "0xA521",
+            "type": "weq"
+        },
+        {
+            "name": "Kraid Eye Door Room",
+            "address": "0x079B",
+            "value": "0xA56B",
+            "type": "weq"
+        },
+        {
+            "name": "Kraid Room",
+            "address": "0x079B",
+            "value": "0xA59F",
+            "type": "weq"
+        },
+        {
+            "name": "Kraid",
+            "address": "0xD829",
+            "value": "0x01",
+            "type": "bit"
+        },
+        {
+            "name": "Varia Suit",
+            "address": "0xD876",
+            "value": "0x01",
+            "type": "bit"
+        }
+    ]
+}

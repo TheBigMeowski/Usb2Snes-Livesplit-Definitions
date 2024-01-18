@@ -1,0 +1,112 @@
+{
+  "name": "Super Metroid",
+  "autostart": {
+    "active": "1",
+    "name": "Autostart",
+    "address": "0x079B",
+    "value": "0xCFC9",
+    "type": "weq",
+    "more": null,
+    "next": null
+  },
+  "igt": null,
+  "alias": null,
+  "definitions": [
+    {
+      "name": "The Precious Room",
+      "address": "0x079B",
+      "value": "0xD78F",
+      "type": "weq"
+    },
+    {
+      "name": "Draygon",
+      "address": "0xD82C",
+      "value": "0x01",
+      "type": "bit"
+    },
+    {
+      "name": "Draygon's Room",
+      "address": "0x079B",
+      "value": "0xDA60",
+      "type": "weq"
+    },
+    {
+      "name": "Botwoon",
+      "address": "0xD82C",
+      "value": "0x02",
+      "type": "bit"
+    },
+    {
+      "name": "Colosseum",
+      "address": "0x079B",
+      "value": "0xD72A",
+      "type": "weq"
+    },
+    {
+      "name": "Halfie Climb Room",
+      "address": "0x079B",
+      "value": "0xD913",
+      "type": "weq"
+    },
+    {
+      "name": "Botwoon Energy Tank Room",
+      "address": "0x079B",
+      "value": "0xD7E4",
+      "type": "weq"
+    },
+    {
+      "name": "Botwoon's Room",
+      "address": "0x079B",
+      "value": "0xD95E",
+      "type": "weq"
+    },
+    {
+      "name": "Botwoon Hallway",
+      "address": "0x079B",
+      "value": "0xD617",
+      "type": "weq"
+    },
+    {
+      "name": "Aqueduct",
+      "address": "0x079B",
+      "value": "0xD5A7",
+      "type": "weq"
+    },
+    {
+      "name": "Mt. Everest",
+      "address": "0x079B",
+      "value": "0xD0B9",
+      "type": "weq"
+    },
+    {
+      "name": "Crab Shaft",
+      "address": "0x079B",
+      "value": "0xD1A3",
+      "type": "weq"
+    },
+    {
+      "name": "Main Street",
+      "address": "0x079B",
+      "value": "0xCFC9",
+      "type": "weq"
+    },
+    {
+      "name": "Fish Tank",
+      "address": "0x079B",
+      "value": "0xD017",
+      "type": "weq"
+    },
+    {
+      "name": "Botwoon Hallway",
+      "address": "0x079B",
+      "value": "0xD617",
+      "type": "weq"
+    },
+    {
+      "name": "Space Jump",
+      "address": "0xD883",
+      "value": "0x04",
+      "type": "bit"
+    }
+  ]
+}

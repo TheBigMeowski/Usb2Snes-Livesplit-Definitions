@@ -1,0 +1,76 @@
+{
+  "name": "Super Metroid",
+  "autostart": {
+    "active": "1",
+    "name": "Autostart",
+    "address": "0x079B",
+    "value": "0xB3A5",
+    "type": "weq",
+    "more": null,
+    "next": null
+  },
+  "igt": null,
+  "alias": null,
+  "definitions": [
+    {
+      "name": "Pillar Room",
+      "address": "0x079B",
+      "value": "0xB457",
+      "type": "weq"
+    },
+    {
+      "name": "The Worst Room In The Game",
+      "address": "0x079B",
+      "value": "0xB4AD",
+      "type": "weq"
+    },
+    {
+      "name": "Amphitheatre",
+      "address": "0x079B",
+      "value": "0xB4E5",
+      "type": "weq"
+    },
+    {
+      "name": "Red Kihunter Shaft",
+      "address": "0x079B",
+      "value": "0xB585",
+      "type": "weq"
+    },
+    {
+      "name": "Wasteland",
+      "address": "0x079B",
+      "value": "0xB5D5",
+      "type": "weq"
+    },
+    {
+      "name": "Metal Pirates Room",
+      "address": "0x079B",
+      "value": "0xB62B",
+      "type": "weq"
+    },
+    {
+      "name": "Plowerhouse Room",
+      "address": "0x079B",
+      "value": "0xB482",
+      "type": "weq"
+    },
+    {
+      "name": "Lower Norfair Farming Room",
+      "address": "0x079B",
+      "value": "0xB37A",
+      "type": "weq"
+    },
+    {
+      "name": "Ridley's Room",
+      "address": "0x079B",
+      "value": "0xB32E",
+      "type": "weq"
+    },
+    {
+      "name": "Ridley",
+      "address": "0xD82A",
+      "value": "0x01",
+      "type": "bit"
+    }
+  ]
+}
