@@ -1,0 +1,485 @@
+{
+    "name": "Ninja Gaiden Trilogy",
+    "autostart": {
+        "active": "1",
+        "address": "0x0126AC",
+        "value": "0x01",
+        "type": "eq",
+        "more": [
+            {
+                "address": "0x0126B0",
+                "value": "0x01",
+                "type": "eq"
+            }
+        ]
+    },
+    "definitions": [
+        {
+            "name": "Enter Level 1-2",
+            "address": "0x0126AC",
+            "value": "0x01",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 1 Down",
+            "address": "0x0126AC",
+            "value": "0x01",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 2-1",
+            "address": "0x0126AC",
+            "value": "0x02",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x01",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 2-2",
+            "address": "0x0126AC",
+            "value": "0x02",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 2-2",
+            "address": "0x0126AC",
+            "value": "0x02",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 2-3",
+            "address": "0x0126AC",
+            "value": "0x02",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 2 Down",
+            "address": "0x0126AC",
+            "value": "0x02",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 3-1",
+            "address": "0x0126AC",
+            "value": "0x03",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x01",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 3-2",
+            "address": "0x0126AC",
+            "value": "0x03",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 3-3",
+            "address": "0x0126AC",
+            "value": "0x03",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 3 Down",
+            "address": "0x0126AC",
+            "value": "0x03",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 4-1",
+            "address": "0x0126AC",
+            "value": "0x04",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x01",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 4-2",
+            "address": "0x0126AC",
+            "value": "0x04",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 4-3",
+            "address": "0x0126AC",
+            "value": "0x04",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 4 Down",
+            "address": "0x0126AC",
+            "value": "0x04",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 5-1",
+            "address": "0x0126AC",
+            "value": "0x05",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x01",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 5-2",
+            "address": "0x0126AC",
+            "value": "0x05",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 5-3",
+            "address": "0x0126AC",
+            "value": "0x05",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 5 Down",
+            "address": "0x0126AC",
+            "value": "0x05",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 6-1",
+            "address": "0x0126AC",
+            "value": "0x06",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x01",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 6-2",
+            "address": "0x0126AC",
+            "value": "0x06",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 6-3",
+            "address": "0x0126AC",
+            "value": "0x06",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 6 Down",
+            "address": "0x0126AC",
+            "value": "0x06",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 7-1",
+            "address": "0x0126AC",
+            "value": "0x07",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x01",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 7-2",
+            "address": "0x0126AC",
+            "value": "0x07",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x02",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enter Level 7-3",
+            "address": "0x0126AC",
+            "value": "0x07",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 7 Down - 1",
+            "address": "0x0126AC",
+            "value": "0x07",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x03",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Enemy 7 Down - 2",
+            "address": "0x0126AC",
+            "value": "0x07",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x04",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
+            "name": "Jaquio Down",
+            "address": "0x0126AC",
+            "value": "0x07",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x0126B0",
+                    "value": "0x05",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0081",
+                    "value": "0x00",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x00B1",
+                    "value": "0x00",
+                    "type": "eq"
+                }
+            ]
+        }
+    ]
+}
