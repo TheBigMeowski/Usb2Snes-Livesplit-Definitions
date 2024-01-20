@@ -3,11 +3,13 @@
 ## Trigger Conditions
 ### Autostart
 
-When the level and sublevel values are set to 1
+NG1 and NG2: When the level and sublevel values are set to 1
+NG3: When the sublevel value is 0 and timer's value is 250
 
 ### "Enter Level X-Y"
 
-When the level value is set to X and sub-level value set to Y
+NG1 and NG2: When the level value is set to X and sub-level value set to Y
+NG3: When the sublevel value is changed to the next number
 
 ### "Enemy X Down"
 
@@ -26,8 +28,7 @@ When both Enemy HP and Timer reach 0
 - 0x00B1 => Timer
 
 ## Ninja Gaiden III
-TODO
-- ?? => Level
-- ?? => Sublevel
-- ?? => Enemy HP Display
+- 0x012EAC => Level
+- 0x005F => Sublevel as a count
+- 0x00A8 => Enemy HP Display
 - 0x00D0 => Timer
