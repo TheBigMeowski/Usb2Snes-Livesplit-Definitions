@@ -1,0 +1,1 @@
+FF4 and FF5 configs taken from: https://github.com/aexoden/usb2snes-autosplits/
