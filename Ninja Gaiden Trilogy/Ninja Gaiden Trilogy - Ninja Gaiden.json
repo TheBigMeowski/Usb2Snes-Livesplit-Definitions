@@ -390,52 +390,6 @@
             ]
         },
         {
-            "name": "Enemy 6 Down",
-            "address": "0x01212C",
-            "value": "0x06",
-            "type": "eq",
-            "more": [
-                {
-                    "address": "0x012130",
-                    "value": "0x04",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x0066",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x0063",
-                    "value": "0x00",
-                    "type": "eq"
-                }
-            ]
-        },
-        {
-            "name": "Enemy 6 Down - 2",
-            "address": "0x0066",
-            "value": "0x10",
-            "type": "eq",
-            "next": [
-                {
-                    "address": "0x0066",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x012130",
-                    "value": "0x04",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x01212C",
-                    "value": "0x06",
-                    "type": "eq"
-                }
-            ]
-        },
-        {
             "name": "Jaquio Down",
             "address": "0x01212C",
             "value": "0x06",
