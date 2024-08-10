@@ -25,13 +25,20 @@
       "name": "Outer Courtyard",
       "address": "0xA0",
       "value": "0x55",
-      "type": "eq"
+      "type": "eq"      
     },   
     {
       "name": "Uncle",
       "address": "0xAA",
       "value": "0x02",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x55",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "After Uncle",
@@ -73,7 +80,14 @@
       "name": "Key Guard 1",
       "address": "0xAA",
       "value": "0x02",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x72",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Ledge Drop",
@@ -97,19 +111,40 @@
       "name": "Three Doors",
       "address": "0xA9",
       "value": "0x01",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x71",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Key Guard 2",
       "address": "0xA9",
       "value": "0x00",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x71",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Three Doors Again",
       "address": "0xAA",
       "value": "0x00",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x71",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "More Stairs",
@@ -139,7 +174,14 @@
       "name": "More Stairs Again",
       "address": "0xAA",
       "value": "0x02",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x71",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Three Doors Again Again",
@@ -163,7 +205,14 @@
       "name": "Ledge Drop Again",
       "address": "0xAA",
       "value": "0x00",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x72",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Key Guard 1 Again",
@@ -229,7 +278,14 @@
       "name": "Sewer 2",
       "address": "0xAA",
       "value": "0x00",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x21",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Key Rat",
@@ -241,13 +297,27 @@
       "name": "Bonk Room (going left)",
       "address": "0xA9",
       "value": "0x00",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x11",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "3 Chests",
       "address": "0xA9",
       "value": "0x01",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x11",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Bonk Room",
@@ -259,7 +329,14 @@
       "name": "Rats",
       "address": "0xAA",
       "value": "0x02",
-      "type": "eq"
+      "type": "eq",
+      "more": [
+        {
+          "address": "0xA0",
+          "value": "0x02",
+          "type": "eq"
+        }
+      ]
     }, 
     {
       "name": "Escape",
