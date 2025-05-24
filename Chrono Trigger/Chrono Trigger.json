@@ -17,33 +17,18 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x62B0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x62B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x6330",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x6331",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -56,63 +41,33 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x6030",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x6031",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x61B0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x61B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x6230",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
-                    "address": "0x6231",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x62B1",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x62B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "address": "0x62B0",
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x6330",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x6331",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -125,13 +80,8 @@
             "more": [
                 {
                     "address": "0x6130",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x6131",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -144,13 +94,8 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -163,13 +108,8 @@
             "more": [
                 {
                     "address": "0x61B0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x61B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -182,13 +122,8 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -201,13 +136,8 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -220,23 +150,13 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x61B0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x61B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -244,38 +164,23 @@
             "name": "Retinite",
             "note": "Splits when the head, legs, and cores' HPs reach 0",
             "address": "0x5FAD",
-            "value": "3A",
+            "value": "0x3A",
             "type": "eq",
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x6130",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x6131",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 },
                 {
                     "address": "0x62B0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x62B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -288,13 +193,8 @@
             "more": [
                 {
                     "address": "0x5FB0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x5FB1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         },
@@ -302,18 +202,13 @@
             "name": "Lavos",
             "note": "Splits when Lavos Core's HP reaches 0",
             "address": "0x62AD",
-            "value": "EF",
+            "value": "0xEF",
             "type": "eq",
             "more": [
                 {
                     "address": "0x62B0",
-                    "value": "0x00",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x62B1",
-                    "value": "0x00",
-                    "type": "eq"
+                    "value": "0x0000",
+                    "type": "weq"
                 }
             ]
         }
