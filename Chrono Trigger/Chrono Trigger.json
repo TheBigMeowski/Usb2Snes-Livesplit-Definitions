@@ -244,7 +244,7 @@
             ]
         },
         {
-            "name": "Magus",
+            "name": "Magus (HP 0)",
             "note": "Splits when Magus's HP reaches 0",
             "address": "0x5FAD",
             "value": "0xF9",
@@ -254,6 +254,20 @@
                     "address": "0x5FB0",
                     "value": "0x0000",
                     "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Magus (kneel)",
+            "note": "Splits when Magus kneels",
+            "address": "0x0100",
+            "value": "0x00AC",
+            "type": "weq",
+            "more": [
+                {
+                    "address": "0x1692",
+                    "value": "0x12",
+                    "type": "eq"
                 }
             ]
         },
