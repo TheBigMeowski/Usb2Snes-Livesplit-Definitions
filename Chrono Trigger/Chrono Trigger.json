@@ -72,6 +72,25 @@
             ]
         },
         {
+            "name": "Zombor (Zenan Bridge exit)",
+            "note": "Splits when exiting Zenan bridge to the South for the first time",
+            "address": "0x0100",
+            "value": "0x01F1",
+            "type": "weq",
+            "more": [
+                {
+                    "address": "0x0102",
+                    "value": "0x1F",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0103",
+                    "value": "0x41",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
             "name": "Masamune",
             "note": "Splits when Masamune's health reaches 0",
             "address": "0x612D",
