@@ -4,8 +4,15 @@
         "active": "1",
         "note": "Run starts on A press at pendulum screen",
         "address": "0x10060",
-        "value": "0x01",
-        "type": "eq"
+        "value": "0x00",
+        "type": "eq",
+        "next": [
+            {
+                "address": "0x10060",
+                "value": "0x01",
+                "type": "eq"
+            }
+        ]
     },
     "definitions": [
         {
