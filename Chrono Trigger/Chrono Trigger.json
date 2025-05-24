@@ -150,6 +150,25 @@
             ]
         },
         {
+            "name": "Zombor (HP 0)",
+            "note": "Splits when Zombor's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xB3",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x62B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "Zombor (Zenan Bridge exit)",
             "note": "Splits when exiting Zenan bridge to the South for the first time",
             "address": "0x0100",

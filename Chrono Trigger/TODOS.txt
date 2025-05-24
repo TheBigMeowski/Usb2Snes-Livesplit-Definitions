@@ -1,9 +1,10 @@
-NOTE TO SELF: fix autostart (using next)
 Magus kneel
 last input for elixir glitch for lavos core
 100% splits
+- idk lmao
 glitchless splits
 - yakra fight (note: implemented but not tested yet)
-- zombor fight
+- zombor fight (note: implemented but not tested yet)
 - heckran fight (note: implemented but not tested yet)
 - giga gaia
+- etc
