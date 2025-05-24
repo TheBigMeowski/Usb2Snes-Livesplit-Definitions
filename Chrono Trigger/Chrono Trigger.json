@@ -86,13 +86,6 @@
             ]
         },
         {
-            "name": "Heckran (story flag)",
-            "note": "Splits when the story value is updated after Heckran is defeated. Should be right as the party starts to group up",
-            "address": "0x10000",
-            "value": "0x51",
-            "type": "eq"
-        },
-        {
             "name": "Heckran (cave exit)",
             "note": "Splits when Heckran cave is exited through the whirlpool",
             "address": "0x0100",
