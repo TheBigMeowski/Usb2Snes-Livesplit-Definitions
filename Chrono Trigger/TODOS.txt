@@ -1,10 +1,10 @@
-Magus kneel
-last input for elixir glitch for lavos core
 100% splits
 - idk lmao
+All Endings splits
 glitchless splits
 - yakra fight (note: implemented but not tested yet)
 - zombor fight (note: implemented but not tested yet)
 - heckran fight (note: implemented but not tested yet)
 - giga gaia
 - etc
+subsplits for NG+

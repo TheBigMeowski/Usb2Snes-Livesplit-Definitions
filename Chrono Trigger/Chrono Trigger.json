@@ -329,7 +329,7 @@
             ]
         },
         {
-            "name": "Lavos",
+            "name": "Lavos Core (HP 0)",
             "note": "Splits when Lavos Core's HP reaches 0",
             "address": "0x62AD",
             "value": "0xEF",
@@ -341,6 +341,13 @@
                     "type": "weq"
                 }
             ]
+        },
+        {
+            "name": "Lavos Core (elixir glitch)",
+            "note": "Splits when elixir glitch gets applied to Lavos Core",
+            "address": "0xADC0",
+            "value": "0x7530",
+            "type": "weq"
         }
     ]
 }
