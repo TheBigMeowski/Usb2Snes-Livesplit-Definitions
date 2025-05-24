@@ -1,0 +1,9 @@
+yakra skip
+Magus kneel
+last input for elixir glitch for lavos core
+100% splits
+glitchless splits
+- yakra fight
+- zombor fight
+- heckran fight (note: implemented but not tested yet)
+- giga gaia

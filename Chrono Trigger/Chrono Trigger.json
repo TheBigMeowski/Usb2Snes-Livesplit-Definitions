@@ -72,6 +72,46 @@
             ]
         },
         {
+            "name": "Heckran (HP 0)",
+            "note": "Splits when Heckran's HP reaches 0 (for glitchless)",
+            "address": "0x5FAD",
+            "value": "0xA9",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Heckran (story flag)",
+            "note": "Splits when the story value is updated after Heckran is defeated. Should be right as the party starts to group up",
+            "address": "0x10000",
+            "value": "0x51",
+            "type": "eq"
+        },
+        {
+            "name": "Heckran (cave exit)",
+            "note": "Splits when Heckran cave is exited through the whirlpool",
+            "address": "0x0100",
+            "value": "0x01F0",
+            "type": "weq",
+            "more": [
+                {
+                    "address": "0x0102",
+                    "value": "0x37",
+                    "type": "eq"
+                },
+                {
+                    "address": "0x0103",
+                    "value": "0x32",
+                    "type": "eq"
+                }
+            ]
+        },
+        {
             "name": "Zombor (Zenan Bridge exit)",
             "note": "Splits when exiting Zenan bridge to the South for the first time",
             "address": "0x0100",
