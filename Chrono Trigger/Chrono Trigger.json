@@ -404,6 +404,101 @@
             "address": "0xADC0",
             "value": "0x7530",
             "type": "weq"
+        },
+        {
+            "name": "Epoch",
+            "note": "Splits when the Epoch first takes off",
+            "address": "0x0100",
+            "value": "0x00F3",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x01B0",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Giga Gaia (HP 0)",
+            "note": "Splits when Giga Gaia's HP reaches 0",
+            "address": "0x612D",
+            "value": "0xD1",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x6130",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x61B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x62B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Golem Twins (HP 0)",
+            "note": "Splits when the Golem Twins' HPs reach 0",
+            "address": "0x612D",
+            "value": "0x95",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x6130",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Dalton Plus (HP 0)",
+            "note": "Splits when Dalton Plus' HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xA2",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Queen Zeal (HP 0)",
+            "note": "Splits when Zeal's final form's HP reaches 0 for face & hands",
+            "address": "0x5FAD",
+            "value": "0xB0",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x61B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x62B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
         }
     ]
 }

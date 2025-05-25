@@ -24,17 +24,19 @@ Implemented & tested on the practice ROM
 - Lavos Body (HP 0)
 - Lavos Core (elixir glitch used)
 Implemented but not yet tested because I just haven't done it yet
+- Epoch
+- Giga Gaia (HP 0)
+- Golem Twins (HP 0)
+- Dalton Plus (HP 0)
 Implemented but not yet tested because I would have to figure out glitchless fights
 - Yakra (HP 0)
 - Heckran (HP 0)
 - Zombor (HP 0)
+No LSS
+- 5 slimes (bit of a roadblock with this one)
 NG+
 - first red frame (lavos core)
 100% splits
-- Epoch (first takeoff)
-- Giga Gaia (HP 0)
-- Ocean Palace (Golem Twins HP 0)
-- Dalton Plus (HP 0)
 - Northern Ruins (when Frog grabs the sword)
 - Sun Stone
 - Son of Sun (HP 0)
