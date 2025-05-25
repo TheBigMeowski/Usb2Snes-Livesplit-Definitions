@@ -1,0 +1,90 @@
+{
+    "game": "Chrono Trigger",
+    "autostart": {
+        "active": "1",
+        "note": "Run starts when the player gains control of Crono after his fistpump animation",
+        "address": "0x010000",
+        "value": "0x03",
+        "type": "eq",
+        "more": [
+            {
+                "address": "0x0100",
+                "value": "0x02",
+                "type": "weq"
+            },
+            {
+                "address": "0x011F",
+                "value": "0x01",
+                "type": "eq"
+            }
+        ]
+    },
+    "definitions": [
+        {
+            "name": "candy skip",
+            "note": "Splits on transition from Leene's bell to telepod",
+            "address": "0x0100",
+            "value": "0x01B7",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x0008",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Lavos Shell - Final Shell (HP 0)",
+            "note": "Splits when Lavos Shell's HP reaches 0 in the final fight",
+            "address": "0x5FAD",
+            "value": "0xEC",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Lavos Body (HP 0)",
+            "note": "Splits when Lavos Body's HP reaches 0 (AKA Inner Lavos phase 1)",
+            "address": "0x5FAD",
+            "value": "0xCD",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x6130",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x6330",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Lavos Core (HP 0)",
+            "note": "Splits when Lavos Core's HP reaches 0",
+            "address": "0x62AD",
+            "value": "0xEF",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x62B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        }
+    ]
+}
