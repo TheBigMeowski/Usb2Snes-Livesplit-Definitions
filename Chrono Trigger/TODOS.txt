@@ -1,10 +1,66 @@
+Implemented & tested on the practice ROM
+- Yakra (room exit)
+- Dragon Tank (HP 0)
+- R-Series (HP 0)
+- Heckran (cave exit)
+- Zombor (Zenan Bridge Exit)
+- Masamune (HP 0)
+- Nizbel (HP 0)
+- Flea (HP 0)
+- Slash (HP 0)
+- Magus (HP 0)
+- Magus (kneels)
+- Black Tyrano (HP 0)
+- Retinite (HP 0)
+- Lavos Shell (Final Shell HP 0)
+- Lavos Core (elixir glitch used)
+Implemented but not yet tested
+- Yakra (HP 0)
+- Heckran (HP 0)
+- Zombor (HP 0)
+More No LSS split variants
+- Dragon Tank (room exit)
+- if there's demand, room exit split variants for:
+-- R-Series
+-- Masamune
+-- Nizbel
+-- Flea/Slash
+-- Black Tyrano
+-- Retinite
+-- Lavos Shell
+- subsplits for Lavos Shell fights (if there's demand)
+- subsplit for Lavos Core 1 (if there's demand)
+- EoT entrance (check story flags after Retinite?)
+- Dactyl Nest exit
+- "12,000 B.C.": after being sealed by Schala
+- EoT exit (to lavos shell)
+NG+
+- autostart on first active Crono frame (may need new file for this)
+- candy skip (transition from Leene's bell to telepod)
+- final damage on lavos shell (should I just use HP 0?)
+- final damage on inner lavos (should I just use HP 0?)
+- final damage on lavos core if not elixir glitching (Luminaire @ 39 MP)
 100% splits
-- idk lmao
-All Endings splits
+- Epoch (first takeoff)
+- Giga Gaia (HP 0)
+- Ocean Palace (Golem Twins HP 0)
+- Dalton Plus (HP 0)
+- Northern Ruins (when Frog grabs the sword)
+- Sun Stone
+- Son of Sun (HP 0)
+- Giant's Claw (exit to Guardia Castle)
+- MotherBrain (HP 0)
+- Yakra XIII (HP 0)
+- Death Peak (room exit)
+- Ozzie's Fort (exit, maybe also check for a story flag?)
+- Black Omen elevator exit
+- Black Omen Lavos Spawn (HP 0)
+- Queen Zeal (HP 0)
 glitchless splits
-- yakra fight (note: implemented but not tested yet)
-- zombor fight (note: implemented but not tested yet)
-- heckran fight (note: implemented but not tested yet)
-- giga gaia
-- etc
-subsplits for NG+
+- Guardian (HP 0)
+- Nizbel II (HP 0)
+- Red & Blue Beasts (HP 0)
+- Mega Mutant (HP 0)
+- Giga Mutant (HP 0)
+- Mammon Machine (HP 0)
+All Endings splits
