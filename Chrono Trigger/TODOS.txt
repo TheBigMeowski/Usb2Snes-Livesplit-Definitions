@@ -1,6 +1,7 @@
 Implemented & tested on the practice ROM
 - Yakra (room exit)
 - Dragon Tank (HP 0)
+- Dragon Tank (catwalk exit)
 - R-Series (HP 0)
 - Heckran (cave exit)
 - Zombor (Zenan Bridge Exit)
@@ -10,30 +11,18 @@ Implemented & tested on the practice ROM
 - Slash (HP 0)
 - Magus (HP 0)
 - Magus (kneels)
+- Dactyl Nest exit
 - Black Tyrano (HP 0)
+- 12,000 B.C. exit
 - Retinite (HP 0)
+- 1999
 - Lavos Shell (Final Shell HP 0)
 - Lavos Core (elixir glitch used)
-Implemented but not yet tested
+Implemented but not yet tested because I just haven't done it yet
+Implemented but not yet tested because I would have to figure out glitchless fights
 - Yakra (HP 0)
 - Heckran (HP 0)
 - Zombor (HP 0)
-More No LSS split variants
-- Dragon Tank (room exit)
-- if there's demand, room exit split variants for:
--- R-Series
--- Masamune
--- Nizbel
--- Flea/Slash
--- Black Tyrano
--- Retinite
--- Lavos Shell
-- subsplits for Lavos Shell fights (if there's demand)
-- subsplit for Lavos Core 1 (if there's demand)
-- EoT entrance (check story flags after Retinite?)
-- Dactyl Nest exit
-- "12,000 B.C.": after being sealed by Schala
-- EoT exit (to lavos shell)
 NG+
 - autostart on first active Crono frame (may need new file for this)
 - candy skip (transition from Leene's bell to telepod)

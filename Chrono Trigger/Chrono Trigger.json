@@ -54,8 +54,8 @@
             ]
         },
         {
-            "name": "Dragon Tank",
-            "note": "Splits when head, wheels, and body HP go to 0",
+            "name": "Dragon Tank (HP 0)",
+            "note": "Splits when head's, wheels', and body's HPs reach 0",
             "address": "0x5FAD",
             "value": "0x93",
             "type": "eq",
@@ -78,8 +78,22 @@
             ]
         },
         {
+            "name": "Dragon Tank (catwalk exit)",
+            "note": "Splits when transitioning from the Dragon Tank catwalks to the stairwell",
+            "address": "0x0100",
+            "value": "0x001C",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x01E9",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "R-Series",
-            "note": "Splits when all 6 R-Series robots' HP goes to 0",
+            "note": "Splits when all 6 R-Series robots' HPs reach 0",
             "address": "0x5FAD",
             "value": "0xF8",
             "type": "eq",
@@ -272,7 +286,21 @@
             ]
         },
         {
-            "name": "Black Tyrano",
+            "name": "Dactyl Nest (exit)",
+            "note": "Splits when transitioning from Dactyl Nest Summit to the overworld (post-cutscene)",
+            "address": "0x0100",
+            "value": "0x0127",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x01F3",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Black Tyrano (HP 0)",
             "note": "Splits when Azala and BT's HPs reach 0",
             "address": "0x5FAD",
             "value": "0xBC",
@@ -286,6 +314,20 @@
                 {
                     "address": "0x61B0",
                     "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "12,000 B.C. exit",
+            "note": "Splits on transition from 12,000 B.C. to 65M B.C.",
+            "address": "0x0100",
+            "value": "0x015F",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x0133",
                     "type": "weq"
                 }
             ]
@@ -310,6 +352,20 @@
                 {
                     "address": "0x62B0",
                     "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "1999",
+            "note": "Splits when transitioning to 1999 from the bucket in EoT",
+            "address": "0x0100",
+            "value": "0x01D0",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x01D2",
                     "type": "weq"
                 }
             ]
