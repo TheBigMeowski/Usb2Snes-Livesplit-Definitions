@@ -92,6 +92,30 @@
             ]
         },
         {
+            "name": "Guardian (HP 0)",
+            "note": "Splits when the HPs of the Guardian & its bits reach 0",
+            "address": "0x5FAD",
+            "value": "0xD4",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x61B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x6230",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "R-Series",
             "note": "Splits when all 6 R-Series robots' HPs reach 0",
             "address": "0x5FAD",
@@ -300,6 +324,20 @@
             ]
         },
         {
+            "name": "Nizbel II (HP 0)",
+            "note": "Splits when Nizbel II's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0x9C",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "Black Tyrano (HP 0)",
             "note": "Splits when Azala and BT's HPs reach 0",
             "address": "0x5FAD",
@@ -420,6 +458,30 @@
             ]
         },
         {
+            "name": "Mud Imp (HP 0)",
+            "note": "Splits when the HPs of Mud Imp, Red Beast, and Blue Beast reach 0",
+            "address": "0x62AD",
+            "value": "0x0F",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x61B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x62B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "Giga Gaia (HP 0)",
             "note": "Splits when Giga Gaia's HP reaches 0",
             "address": "0x612D",
@@ -477,7 +539,129 @@
             ]
         },
         {
-            "name": "Queen Zeal (HP 0)",
+            "name": "Rust Tyrano (HP 0)",
+            "note": "Splits when Rust Tyrano's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xBD",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Yakra XIII (HP 0)",
+            "note": "Splits when Yakra XIII's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xC7",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Death Peak Summit (time freeze exit)",
+            "note": "Splits on transition from the time freeze back to the Summit after replacing Crono with the doll",
+            "address": "0x0100",
+            "value": "0x01A7",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x01AD",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Rust Tyrano (Giant's Claw exit)",
+            "note": "Splits on transition to Guardia Castle after interacting with the Rainbow Shell",
+            "address": "0x0100",
+            "value": "0x00C5",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x0078",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Black Omen elevator exit",
+            "note": "Splits on transition from the elevator to the Auxiliary Command room",
+            "address": "0x0100",
+            "value": "0x0063",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x0139",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Mega Mutant (HP 0)",
+            "note": "Splits when Mega Mutant's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xB8",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x61B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Giga Mutant (HP 0)",
+            "note": "Splits when Giga Mutant's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0x35",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x61B0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Mammon Machine (HP 0)",
+            "note": "Splits when Mammon Machine's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0x0A",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Queen Zeal Final Form (HP 0)",
             "note": "Splits when Zeal's final form's HP reaches 0 for face & hands",
             "address": "0x5FAD",
             "value": "0xB0",

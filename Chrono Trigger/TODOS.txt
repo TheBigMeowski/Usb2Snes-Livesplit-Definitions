@@ -24,35 +24,35 @@ Implemented & tested on the practice ROM
 - Lavos Body (HP 0)
 - Lavos Core (elixir glitch used)
 Implemented but not yet tested because I just haven't done it yet
-- Epoch
+- Epoch (TODO what do I do if you go to the wrong time period?)
+Implemented but not yet tested because I would have to figure out glitchless/100% fights
+- Yakra (HP 0)
+- Guardian (HP 0)
+- Heckran (HP 0)
+- Zombor (HP 0)
 - Giga Gaia (HP 0)
 - Golem Twins (HP 0)
 - Dalton Plus (HP 0)
-Implemented but not yet tested because I would have to figure out glitchless fights
-- Yakra (HP 0)
-- Heckran (HP 0)
-- Zombor (HP 0)
-No LSS
-- 5 slimes (bit of a roadblock with this one)
-NG+
-- first red frame (lavos core)
-100% splits
-- Northern Ruins (when Frog grabs the sword)
-- Sun Stone
-- Son of Sun (HP 0)
+- Rust Tyrano (HP 0)
 - Giant's Claw (exit to Guardia Castle)
-- MotherBrain (HP 0)
 - Yakra XIII (HP 0)
-- Death Peak (room exit)
-- Ozzie's Fort (exit, maybe also check for a story flag?)
+- Death Peak exit
 - Black Omen elevator exit
-- Black Omen Lavos Spawn (HP 0)
 - Queen Zeal (HP 0)
-glitchless splits
-- Guardian (HP 0)
 - Nizbel II (HP 0)
-- Red & Blue Beasts (HP 0)
+- Mud Imp (HP 0)
 - Mega Mutant (HP 0)
 - Giga Mutant (HP 0)
 - Mammon Machine (HP 0)
+No LSS
+- 5 slimes (bit of a roadblock with this one)
+NG+
+- lavos core (damage number at peak)
+100% splits
+- Northern Ruins (when Frog grabs the sword) (may need to figure out animation stuff, or I can do a transition)
+- Son of Sun (HP 0) (need to figure out how this fight works--does it end on Son's HP 0, or all of them?)
+- MotherBrain (HP 0) (warp takes you before Atropos, so I need to figure out that section of the game so I can get to MB)
+- Ozzie's Fort (exit, maybe also check for a story flag?)
+glitchless splits
+- first red frame (lavos core)
 All Endings splits
