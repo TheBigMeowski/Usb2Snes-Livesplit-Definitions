@@ -40,16 +40,6 @@
                     "address": "0x0100",
                     "value": "0x0078",
                     "type": "weq"
-                },
-                {
-                    "address": "0x0102",
-                    "value": "0x1F",
-                    "type": "eq"
-                },
-                {
-                    "address": "0x0103",
-                    "value": "0x1E",
-                    "type": "eq"
                 }
             ]
         },
@@ -417,6 +407,30 @@
             "more": [
                 {
                     "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Lavos Body (HP 0)",
+            "note": "Splits when Lavos Body's HP reaches 0 (AKA Inner Lavos phase 1)",
+            "address": "0x5FAD",
+            "value": "0xCD",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x6130",
+                    "value": "0x0000",
+                    "type": "weq"
+                },
+                {
+                    "address": "0x6330",
                     "value": "0x0000",
                     "type": "weq"
                 }
