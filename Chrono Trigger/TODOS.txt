@@ -1,8 +1,6 @@
 Implemented & tested on vanilla ROM
 - autostart
 - NG+ autostart
-Implemented & tested on the practice ROM
-- candy skip
 - Yakra (room exit)
 - Dragon Tank (HP 0)
 - Dragon Tank (catwalk exit)
@@ -23,6 +21,8 @@ Implemented & tested on the practice ROM
 - Lavos Shell (Final Shell HP 0)
 - Lavos Body (HP 0)
 - Lavos Core (elixir glitch used)
+Implemented & tested on the practice ROM
+- candy skip
 Implemented but not yet tested because I just haven't done it yet
 - Epoch (TODO what do I do if you go to the wrong time period?)
 Implemented but not yet tested because I would have to figure out glitchless/100% fights
