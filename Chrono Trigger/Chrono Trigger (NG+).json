@@ -71,20 +71,6 @@
                     "type": "weq"
                 }
             ]
-        },
-        {
-            "name": "Lavos Core (HP 0)",
-            "note": "Splits when Lavos Core's HP reaches 0",
-            "address": "0x62AD",
-            "value": "0xEF",
-            "type": "eq",
-            "more": [
-                {
-                    "address": "0x62B0",
-                    "value": "0x0000",
-                    "type": "weq"
-                }
-            ]
         }
     ]
 }
