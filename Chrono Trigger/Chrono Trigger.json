@@ -553,10 +553,45 @@
             ]
         },
         {
+            "name": "Masamune 2",
+            "note": "Splits at the end of the animation where Frog gets Masa 2 in Northern Ruins",
+            "address": "0x101A3",
+            "value": "0x40",
+            "type": "bit"
+        },
+        {
+            "name": "Son of Sun (HP 0)",
+            "note": "Splits when Sun of Sun's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xF6",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "Rust Tyrano (HP 0)",
             "note": "Splits when Rust Tyrano's HP reaches 0",
             "address": "0x5FAD",
             "value": "0xBD",
+            "type": "eq",
+            "more": [
+                {
+                    "address": "0x5FB0",
+                    "value": "0x0000",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
+            "name": "Mother Brain (HP 0)",
+            "note": "Splits when Mother Brain's HP reaches 0",
+            "address": "0x5FAD",
+            "value": "0xBE",
             "type": "eq",
             "more": [
                 {
@@ -593,6 +628,13 @@
                     "type": "weq"
                 }
             ]
+        },
+        {
+            "name": "Ozzie (dunk)",
+            "note": "Splits when the story flag associated with Ozzie getting dunked is set",
+            "address": "0x101A1",
+            "value": "0x80",
+            "type": "bit"
         },
         {
             "name": "Rust Tyrano (Giant's Claw exit)",

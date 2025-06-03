@@ -57,13 +57,13 @@ Epoch | 100% | X | |
 Giga Gaia (HP 0) | 100% | X | |
 Dalton Plus (HP 0) | 100% | X | |
 Golem Twins (HP 0) | 100% | X | |
-Northern Ruins | 100% | Need to figure out animation trigger for Frog grabbing Masa 2, or an exit transition | | 
-Son of Sun (HP 0) | 100% | need to figure out end condition for this fight | | 
+Masamune 2 | 100% | X | | 
+Son of Sun (HP 0) | 100% | X | | 
 Giant's Claw (exit) | 100% | X | |
-Mother Brain (HP 0) | 100% | Prac ROM warp takes you to before Atropos, so I'm having trouble getting to MB
+Mother Brain (HP 0) | 100% | X | |
 Yakra XIII (HP 0) | 100% | X | |
 Death Peak exit | 100% | X | | 
-Ozzie's Fort exit | 100% | | | 
+Ozzie's Fort exit | 100% | X | | 
 Mega Mutant (HP 0) | 100% | X | | 
 Black Omen elevator exit | 100% | X | |
 Mammon Machine (HP 0) | 100% | X | |
