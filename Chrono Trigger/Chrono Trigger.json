@@ -106,6 +106,20 @@
             ]
         },
         {
+            "name": "5 Slimes (room exit)",
+            "note": "Splits on transition from Factory Ruins Security Center (5 Slimes room) to Power Core",
+            "address": "0x0100",
+            "value": "0x00E6",
+            "type": "weq",
+            "next": [
+                {
+                    "address": "0x0100",
+                    "value": "0x00EB",
+                    "type": "weq"
+                }
+            ]
+        },
+        {
             "name": "R-Series",
             "note": "Splits when all 6 R-Series robots' HPs reach 0",
             "address": "0x5FAD",

@@ -32,7 +32,7 @@ autostart | No LSS | X | X | X
 Yakra (room exit) | No LSS | X | X | X
 Dragon Tank (HP 0) | No LSS | X | X | X
 Dragon Tank (catwalk exit) | No LSS | X | X | X
-5 Slimes | No LSS | TODO look at room exit maybe? | |
+5 Slimes (room exit) | No LSS | X | |
 R-Series (HP 0) | No LSS | X | X | X
 Heckran (cave exit) | No LSS | X | X | X
 Zombor (Zenan Bridge Exit) | No LSS | X | X | X
