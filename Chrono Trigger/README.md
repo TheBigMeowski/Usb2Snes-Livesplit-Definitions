@@ -1,4 +1,4 @@
-# Chrono Trigger Autosplits by Meowski v0.1
+# Chrono Trigger Autosplits by Meowski v0.2
 
 ## Usage
 
